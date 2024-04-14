@@ -1,0 +1,21 @@
+{
+  "name": "app_clean_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "rimraf ./dist && tsc && node ./dist/src/main.js",
+    "test": "tsc && jest ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
